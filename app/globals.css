@@ -9,3 +9,12 @@
 .brand .official-logo{display:block;width:220px;height:64px;object-fit:contain;object-position:left center}
 .food-photo{display:block;filter:none!important;mix-blend-mode:normal!important;opacity:1!important}
 @media(max-width:680px){.header-inner{justify-content:flex-start;gap:10px}.brand{flex:0 0 auto}.official-logo{width:150px;height:48px;object-fit:contain}.header-actions{margin-left:4px;gap:4px;flex:0 0 auto}.header-actions .icon-button,.header-actions .menu-button,.header-actions .cart-button{width:40px;height:40px}.header-actions .cart-button{order:1}.header-actions .icon-button{order:2}.header-actions .menu-button{order:3}.site-header{overflow:visible}.main-nav{top:70px}}
+
+/* Keep the supplied white logo canvas intentional in both themes and prevent footer overflow. */
+.brand{overflow:hidden;background:var(--surface);border-radius:8px;padding:3px 8px;max-width:min(320px,42vw)}
+.app.dark .brand{background:#111}
+.brand .official-logo{background:var(--surface);border-radius:5px}
+.app.dark .brand .official-logo{background:#111}
+footer>div:first-child{display:flex;align-items:center;gap:16px;min-width:0;max-width:100%}
+footer>div:first-child>span{min-width:0;overflow-wrap:anywhere}
+@media(max-width:680px){.brand{max-width:150px;padding:2px 5px}.brand .official-logo{width:140px;height:44px}.footer-logo{width:88px;height:76px;flex:0 0 88px}footer>div:first-child{width:100%;align-items:center;gap:12px}}
