@@ -109,7 +109,7 @@ export default function Home() {
 
   const service = getServiceState(now)
   const activeSession = service.active
-  const sessionOpen = activeSession === session
+  const sessionOpen = true // Presentation mode: management can test every meal session at any time.
   const nextWindow = serviceWindows[service.next]
   const nextStart = new Date(now)
   nextStart.setHours(Math.floor(nextWindow.start / 60), nextWindow.start % 60, 0, 0)
