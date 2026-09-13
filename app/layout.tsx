@@ -6,9 +6,9 @@ export const metadata: Metadata = {
   description: 'Pre-order meals, pay with M-Pesa, and get served faster at Meru University of Science and Technology.',
   manifest: '/manifest.webmanifest',
   icons: {
-    icon: '/must-footer-crest.png',
-    shortcut: '/must-footer-crest.png',
-    apple: '/must-footer-crest.png',
+    icon: '/must-official-logo.png',
+    shortcut: '/must-official-logo.png',
+    apple: '/must-official-logo.png',
   },
 }
 

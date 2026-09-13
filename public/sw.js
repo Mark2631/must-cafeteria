@@ -1,5 +1,5 @@
 const CACHE_NAME = 'must-cafeteria-static-v2'
-const STATIC_ASSETS = ['/manifest.webmanifest', '/must-footer-crest.png']
+const STATIC_ASSETS = ['/manifest.webmanifest', '/must-official-logo.png']
 
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.addAll(STATIC_ASSETS)))
