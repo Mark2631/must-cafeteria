@@ -23,27 +23,3 @@ footer>div:first-child>span{min-width:0;overflow-wrap:anywhere}
 .header-inner{display:flex;align-items:center}
 .header-actions{margin-left:auto;justify-content:flex-end;flex:0 0 auto}
 @media(max-width:680px){.header-actions{margin-left:auto;gap:6px}.header-actions .icon-button,.header-actions .cart-button,.header-actions .menu-button{flex:0 0 40px}.header-inner{gap:6px}}
-
-/* Product refresh: calm food-tech surfaces, stronger hierarchy, and a true two-column desktop hero. */
-:root{--background:#fff;--surface:#fff;--surface-2:#f8f9fa;--primary:#00a859;--primary-hover:#008f4b;--text:#123b2a;--muted:#53635b;--border:#e1e8e4;--gold:#e6a91f;--radius:12px}
-.app.dark{--background:#0a1410;--surface:#0d1914;--surface-2:#14231e;--primary:#20c878;--primary-hover:#39db8a;--text:#f3faf5;--muted:#b1c3b8;--border:#294139}
-.site-header{background:color-mix(in srgb,var(--surface) 94%,transparent);border-bottom-color:var(--border)}
-.header-inner{max-width:1280px;min-height:78px;padding-inline:32px;gap:28px}
-.brand{padding:0;background:transparent;max-width:260px;color:var(--text)}
-.brand .official-logo{width:220px;height:64px;object-position:left center;background:#fff;border-radius:8px;padding:3px}
-.app.dark .brand,.app.dark .brand .official-logo{background:#14231e}
-.main-nav{gap:8px;margin-left:auto}
-.main-nav button{padding:10px 12px;color:var(--muted);font-weight:600;border-radius:999px}
-.main-nav button:hover,.main-nav button.active{color:var(--primary);background:color-mix(in srgb,var(--primary) 9%,transparent)}
-.header-actions{gap:10px;margin-left:12px}.icon-button,.menu-button{border:1px solid var(--border);background:var(--surface);color:var(--text);border-radius:999px}
-.cart-button{border-radius:999px;background:var(--primary);color:#fff;padding:11px 18px;font-weight:800;box-shadow:0 8px 18px color-mix(in srgb,var(--primary) 20%,transparent)}
-.service-hero{max-width:1280px;margin:auto;padding:68px 32px 44px;display:grid;grid-template-columns:minmax(0,1fr) minmax(360px,1fr);gap:56px;align-items:center}
-.service-hero>div:first-child{max-width:620px}.service-hero h1{font-size:clamp(42px,5vw,72px);line-height:1.04;color:var(--text);max-width:650px;margin:14px 0 18px}.hero-copy{font-size:18px;max-width:590px;color:var(--muted)}
-.hero-featured{display:block;position:relative;z-index:1;grid-column:2;grid-row:1 / span 2;height:100%;min-height:340px;border-radius:16px;overflow:hidden;background:var(--surface-2) url('/foods/beef-stew.png') center/cover no-repeat;border:1px solid var(--border)}.hero-featured .food-photo{width:100%;height:100%;object-fit:cover}.hero-featured .food-placeholder{height:100%}
-.service-note{grid-column:1;grid-row:2;margin:0;padding:16px 18px;border-radius:12px;background:color-mix(in srgb,var(--primary) 8%,var(--surface));border:1px solid color-mix(in srgb,var(--primary) 18%,var(--border))}
-.hero-actions{display:flex;align-items:center;gap:20px;margin:28px 0}.primary{border-radius:999px;background:var(--primary);padding:13px 22px;font-weight:800;color:#fff}.text-button{color:var(--primary);font-weight:800}
-.session-strip{max-width:1280px;margin:auto;padding:24px 32px 54px;background:transparent;border:0}.session-strip h2{font-size:32px;color:var(--text);margin:8px 0 20px}.session-tabs{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.session-tabs button{min-height:70px;text-align:left;padding:14px 20px;border:1px solid var(--border);border-radius:12px;background:var(--surface);color:var(--text);font-weight:800}.session-tabs button.selected{border:2px solid var(--primary);background:color-mix(in srgb,var(--primary) 8%,var(--surface))}.session-tabs span{display:block;color:var(--muted);font-size:12px;font-weight:500}
-.menu-section{max-width:1280px;margin:auto}.meal-card,.queue,.order-status,.cart-drawer,.admin-dialog{border-radius:12px;border-color:var(--border);background:var(--surface)}
-footer{max-width:1280px;margin:auto;border-top:1px solid var(--border);padding:30px 32px;display:flex;align-items:center;gap:34px}
-@media(max-width:900px){.header-inner{padding-inline:20px}.service-hero{grid-template-columns:1fr;padding:48px 20px 30px;gap:22px}.service-hero>div:first-child,.hero-featured,.service-note{grid-column:1;grid-row:auto}.hero-featured{min-height:270px;order:3}.service-note{order:2}.service-hero>div:first-child{order:1}.session-strip{padding-inline:20px}.session-tabs{overflow-x:auto;display:flex}.session-tabs button{min-width:210px}}
-@media(max-width:680px){.header-inner{padding-inline:16px;min-height:68px}.brand{max-width:150px}.brand .official-logo{width:140px;height:44px}.main-nav{top:68px}.header-actions{margin-left:auto;gap:6px}.cart-button{padding:9px 12px}.service-hero{padding:38px 16px 24px}.service-hero h1{font-size:40px}.hero-copy{font-size:15px}.hero-actions{gap:12px;flex-wrap:wrap}.hero-featured{min-height:220px}.session-strip{padding:22px 16px 38px}.session-strip h2{font-size:27px}.session-tabs button{min-width:180px}.menu-section{padding-inline:16px}footer{padding:28px 16px;align-items:center;text-align:center;flex-direction:column}.footer-links{justify-content:center}}
