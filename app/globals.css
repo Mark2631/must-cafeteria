@@ -18,3 +18,8 @@
 footer>div:first-child{display:flex;align-items:center;gap:16px;min-width:0;max-width:100%}
 footer>div:first-child>span{min-width:0;overflow-wrap:anywhere}
 @media(max-width:680px){.brand{max-width:150px;padding:2px 5px}.brand .official-logo{width:140px;height:44px}.footer-logo{width:88px;height:76px;flex:0 0 88px}footer>div:first-child{width:100%;align-items:center;gap:12px}}
+
+/* Keep header actions anchored to the right on desktop and mobile. */
+.header-inner{display:flex;align-items:center}
+.header-actions{margin-left:auto;justify-content:flex-end;flex:0 0 auto}
+@media(max-width:680px){.header-actions{margin-left:auto;gap:6px}.header-actions .icon-button,.header-actions .cart-button,.header-actions .menu-button{flex:0 0 40px}.header-inner{gap:6px}}
