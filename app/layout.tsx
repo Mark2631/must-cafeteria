@@ -5,6 +5,11 @@ export const metadata: Metadata = {
   title: 'MUST Cafeteria | Campus food ordering',
   description: 'Pre-order meals, pay with M-Pesa, and get served faster at Meru University of Science and Technology.',
   manifest: '/manifest.webmanifest',
+  icons: {
+    icon: '/must-footer-crest.png',
+    shortcut: '/must-footer-crest.png',
+    apple: '/must-footer-crest.png',
+  },
 }
 
 export const viewport: Viewport = {
